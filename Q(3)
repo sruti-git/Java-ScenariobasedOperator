@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("TOTAL BILL:");
+    int BILL=sc.nextInt();
+    double result=BILL/3;
+    System.out.println("BILL FOR EACH PERSON: "+result);
+    }
+}
