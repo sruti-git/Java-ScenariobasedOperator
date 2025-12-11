@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("PRICE:");
+    int PRICE=sc.nextInt();
+    System.out.println("DISCOUNT(%):");
+    double DISCOUNT=sc.nextDouble();
+    double DiscountAmount=500*(DISCOUNT/100);
+    double result=PRICE-DiscountAmount;
+    System.out.println("Price after Discount:"+result);
+    }
+}
