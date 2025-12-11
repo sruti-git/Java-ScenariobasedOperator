@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Principal Amount : ");
+    int P=sc.nextInt();
+    System.out.println("Rate of Interest(%) : ");
+    double R=sc.nextDouble();
+    System.out.println("Time : ");
+    int T=sc.nextInt();
+    double rate=R/100;
+    double result=P*rate*T/100;
+    System.out.println("Simple Interest : "+result);
+    }
+}
