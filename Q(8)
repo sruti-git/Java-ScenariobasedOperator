@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Total number of TRAYS:");
+    int T=sc.nextInt();
+     System.out.println("Cakes bake in each TRAY:");
+    int C=sc.nextInt();
+    int result =T*C;
+    System.out.println("Total number of cakes made:"+result);
+    }
+}
