@@ -6,7 +6,7 @@ public class Main{
     int PRICE=sc.nextInt();
     System.out.println("DISCOUNT(%):");
     double DISCOUNT=sc.nextDouble();
-    double DiscountAmount=500*(DISCOUNT/100);
+    double DiscountAmount=PRICE*(DISCOUNT/100);
     double result=PRICE-DiscountAmount;
     System.out.println("Price after Discount:"+result);
     }
