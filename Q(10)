@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Original salary:");
+    int s=sc.nextInt();
+    System.out.println("Enter pf amount:");
+    int pf=sc.nextInt();
+    System.out.println("Enter deduction amount:");
+    int d=sc.nextInt();
+    int result = ((s-pf)-d);
+    System.out.println("Salary of Employee : "+result);
+    }
+}
