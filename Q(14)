@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+       int pens = sc.nextInt();
+        int price = sc.nextInt();
+        int sets = pens / 5;
+        int remaining = pens % 5;
+        int payablePens = (sets * 3) + remaining;
+System.out.println(payablePens * price);
+    }
+}
